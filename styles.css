@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+form{
+  padding: 15px;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.input-fields input{
+  padding: 8px 5px;
+}
