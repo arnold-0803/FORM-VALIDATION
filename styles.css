@@ -7,6 +7,15 @@ form{
   padding: 15px;
 }
 
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+.field span{
+  color: #ff0000ce;
+}
+
 .input-fields{
   display: flex;
   flex-direction: column;
@@ -16,4 +25,10 @@ form{
 
 .input-fields input{
   padding: 8px 5px;
+}
+
+#success-message {
+  color: green;
+  margin-top: 12px;
+  font-weight: bold;
 }
